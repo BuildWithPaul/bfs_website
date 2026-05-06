@@ -1,0 +1,7 @@
+services:
+  bfs:
+    build: .
+    container_name: bfs_website
+    restart: unless-stopped
+    expose:
+      - "5002"
